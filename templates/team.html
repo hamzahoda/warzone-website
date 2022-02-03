@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+
+{% block title %}Our Team{% endblock title %}
+
+
+{% block body %}
+
+
+<header>
+  <div class=""></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="static/team.mp4" type="video/mp4">
+  </video>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3">Warzone</h1>
+        <p class="lead mb-0">Warzone production house</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+<h1 class="text-center my-3">Our Team</h1>
+
+<div class="card-group mx-4 my-5">
+  <div class="card mx-2">
+    <img class="card-img-top" src="static/avatar3.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Syed Hamza Hoda</h5>
+      <p class="card-text">Mern and Full Stack Developer.</p>
+    </div>
+  </div>
+  <div class="card mx-2">
+    <img class="card-img-top" src="static/avatar1.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Abdur Rafa</h5>
+      <p class="card-text">Frontend Developer and Graphics designer.</p>
+    </div>
+  </div>
+  <div class="card mx-2">
+    <img class="card-img-top" src="static/avatar2.jpeg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Fardeen Tariq</h5>
+      <p class="card-text">C-Sharp, UnReal and Unity developer.</p>
+    </div>
+  </div>
+</div>
+
+
+{% endblock body %}
